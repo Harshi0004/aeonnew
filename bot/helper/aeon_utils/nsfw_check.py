@@ -2,34 +2,9 @@ from re import IGNORECASE, search, escape
 
 
 nsfw_keywords = [
-    "porn",
-    "onlyfans",
-    "nsfw",
-    "Brazzers",
-    "adult",
-    "xnxx",
-    "xvideos",
-    "nsfwcherry",
-    "hardcore",
-    "Pornhub",
-    "xvideos2",
-    "youporn",
-    "pornrip",
-    "playboy",
-    "hentai",
-    "erotica",
-    "blowjob",
-    "redtube",
-    "stripchat",
-    "camgirl",
-    "nude",
-    "fetish",
-    "cuckold",
-    "orgy",
-    "horny",
-    "swingers",
+    "suiii"
+    
 ]
-
 
 def isNSFW(text):
     pattern = r'(?:^|\W|_)(?:' + '|'.join(escape(keyword) for keyword in nsfw_keywords) + r')(?:$|\W|_)'
